@@ -1,0 +1,21 @@
+body {
+    background-color: #818EFF;
+    color: #FFF281;
+  }
+  
+  div {
+    width: 400px;
+    height: 200px;
+    background: #FFF281;
+    margin: 20px;
+    color: #818EFF;
+    font-size: 25px;
+  }
+  
+  input {
+    margin: 20px;
+  }
+  
+  h1 {
+    margin-left: 20px;
+  }
