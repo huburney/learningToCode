@@ -29,9 +29,10 @@ function checkPalindrome(possPal) {
   };
 };
 
-button.addEventListener('click', function() {
+button.addEventListener('click', (e) => {
   if (input.value) {
     checkPalindrome(input);
+    e.preventDefault();
   } else {
     alert('Please input a value')
     result.style.background = '#000000';
